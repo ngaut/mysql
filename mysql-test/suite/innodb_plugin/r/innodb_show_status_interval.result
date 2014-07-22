@@ -1,0 +1,38 @@
+drop table if exists t1;
+create table t1 (i int not null, v int not null, index (i)) Engine=InnoDB;
+insert into t1 values (1, 1);
+searching for the transition for 60 seconds...
+transition found
+select * from t1;
+i	v
+1	1
+select * from t1;
+i	v
+1	1
+select * from t1;
+i	v
+1	1
+select * from t1;
+i	v
+1	1
+select * from t1;
+i	v
+1	1
+select * from t1;
+i	v
+1	1
+select * from t1;
+i	v
+1	1
+select * from t1;
+i	v
+1	1
+select * from t1;
+i	v
+1	1
+select * from t1;
+i	v
+1	1
+searching for another transition for 60 seconds...
+transition found, diff= 10
+drop table t1;

@@ -1,0 +1,613 @@
+libinnobase_a-row0ext.o: row/row0ext.c /usr/include/stdc-predef.h \
+ include/row0ext.h include/univ.i include/ut0auxconf.h \
+ ../../include/my_global.h ../../include/my_config.h \
+ /usr/include/pthread.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/sched.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/xlocale.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_val.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
+ /usr/include/x86_64-linux-gnu/bits/inf.h \
+ /usr/include/x86_64-linux-gnu/bits/nan.h \
+ /usr/include/x86_64-linux-gnu/bits/mathdef.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathinline.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/float.h /usr/include/fenv.h \
+ /usr/include/x86_64-linux-gnu/bits/fenv.h \
+ /usr/include/x86_64-linux-gnu/bits/fenvinline.h /usr/include/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/x86_64-linux-gnu/bits/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
+ /usr/include/x86_64-linux-gnu/sys/timeb.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/crypt.h /usr/include/assert.h ../../include/my_compiler.h \
+ ../../include/my_attribute.h ../../include/my_dbug.h \
+ /usr/include/signal.h /usr/include/x86_64-linux-gnu/bits/signum.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/sys/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/socket2.h ../../include/my_pthread.h \
+ /usr/include/x86_64-linux-gnu/sys/stat.h \
+ /usr/include/x86_64-linux-gnu/sys/mman.h \
+ /usr/include/x86_64-linux-gnu/bits/mman.h \
+ /usr/include/x86_64-linux-gnu/bits/mman-linux.h ../../include/config.h \
+ ../../include/my_config.h include/ut0dbg.h include/os0thread.h \
+ include/os0thread.ic include/ut0ut.h include/os0sync.h include/ut0lst.h \
+ include/os0sync.ic /usr/include/ctype.h include/ut0ut.ic \
+ include/db0err.h include/row0types.h include/data0types.h \
+ include/mem0mem.h include/ut0mem.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string2.h \
+ /usr/include/x86_64-linux-gnu/bits/string3.h include/ut0mem.ic \
+ include/ut0byte.h include/ut0byte.ic include/mach0data.h \
+ include/mach0data.ic include/ut0rnd.h include/ut0rnd.ic \
+ include/sync0sync.h include/sync0types.h include/sync0arr.h \
+ include/sync0arr.ic include/sync0sync.ic include/mem0dbg.h \
+ include/mem0mem.ic include/mem0dbg.ic include/mem0pool.h \
+ include/os0file.h /usr/include/dirent.h \
+ /usr/include/x86_64-linux-gnu/bits/dirent.h include/mem0pool.ic \
+ include/row0ext.ic include/rem0types.h include/btr0types.h \
+ include/page0types.h include/dict0types.h include/mtr0types.h \
+ include/sync0rw.h include/sync0rw.ic include/btr0cur.h \
+ include/dict0dict.h include/dict0mem.h include/data0type.h \
+ include/data0type.ic include/ha_prototypes.h include/trx0types.h \
+ ../../include/m_ctype.h include/lock0types.h include/que0types.h \
+ include/data0data.h include/data0data.ic include/ut0rbt.h \
+ include/hash0hash.h include/hash0hash.ic include/dict0mem.ic \
+ include/dict0dict.ic include/dict0load.h include/dict0load.ic \
+ include/page0cur.h include/buf0types.h include/page0page.h \
+ include/fil0fil.h include/buf0buf.h include/os0proc.h \
+ /usr/include/x86_64-linux-gnu/sys/ipc.h \
+ /usr/include/x86_64-linux-gnu/bits/ipctypes.h \
+ /usr/include/x86_64-linux-gnu/bits/ipc.h \
+ /usr/include/x86_64-linux-gnu/sys/shm.h \
+ /usr/include/x86_64-linux-gnu/bits/shm.h include/os0proc.ic \
+ include/buf0buf.ic include/mtr0mtr.h include/dyn0dyn.h \
+ include/dyn0dyn.ic include/mtr0mtr.ic include/buf0flu.h \
+ include/buf0flu.ic include/buf0lru.h include/buf0lru.ic \
+ include/buf0rea.h include/rem0rec.h include/rem0rec.ic include/fsp0fsp.h \
+ include/fut0lst.h include/fut0lst.ic include/fut0fut.h \
+ include/fut0fut.ic include/mtr0log.h include/mtr0log.ic \
+ include/fsp0types.h include/trx0sys.h include/read0types.h \
+ include/trx0sys.ic include/trx0trx.h include/usr0types.h \
+ include/trx0xa.h include/ut0vec.h include/ut0vec.ic include/trx0trx.ic \
+ include/srv0srv.h include/fsp0fsp.ic include/page0page.ic \
+ include/rem0cmp.h include/rem0cmp.ic include/page0zip.h \
+ include/page0zip.ic include/page0cur.ic include/ha0ha.h include/ha0ha.ic \
+ include/btr0cur.ic include/btr0btr.h include/btr0btr.ic
+
+/usr/include/stdc-predef.h:
+
+include/row0ext.h:
+
+include/univ.i:
+
+include/ut0auxconf.h:
+
+../../include/my_global.h:
+
+../../include/my_config.h:
+
+/usr/include/pthread.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/sched.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_val.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_valf.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_vall.h:
+
+/usr/include/x86_64-linux-gnu/bits/inf.h:
+
+/usr/include/x86_64-linux-gnu/bits/nan.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathdef.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathinline.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/float.h:
+
+/usr/include/fenv.h:
+
+/usr/include/x86_64-linux-gnu/bits/fenv.h:
+
+/usr/include/x86_64-linux-gnu/bits/fenvinline.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl2.h:
+
+/usr/include/x86_64-linux-gnu/sys/timeb.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
+/usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/crypt.h:
+
+/usr/include/assert.h:
+
+../../include/my_compiler.h:
+
+../../include/my_attribute.h:
+
+../../include/my_dbug.h:
+
+/usr/include/signal.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/usr/include/x86_64-linux-gnu/sys/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket2.h:
+
+../../include/my_pthread.h:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
+/usr/include/x86_64-linux-gnu/sys/mman.h:
+
+/usr/include/x86_64-linux-gnu/bits/mman.h:
+
+/usr/include/x86_64-linux-gnu/bits/mman-linux.h:
+
+../../include/config.h:
+
+../../include/my_config.h:
+
+include/ut0dbg.h:
+
+include/os0thread.h:
+
+include/os0thread.ic:
+
+include/ut0ut.h:
+
+include/os0sync.h:
+
+include/ut0lst.h:
+
+include/os0sync.ic:
+
+/usr/include/ctype.h:
+
+include/ut0ut.ic:
+
+include/db0err.h:
+
+include/row0types.h:
+
+include/data0types.h:
+
+include/mem0mem.h:
+
+include/ut0mem.h:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/string2.h:
+
+/usr/include/x86_64-linux-gnu/bits/string3.h:
+
+include/ut0mem.ic:
+
+include/ut0byte.h:
+
+include/ut0byte.ic:
+
+include/mach0data.h:
+
+include/mach0data.ic:
+
+include/ut0rnd.h:
+
+include/ut0rnd.ic:
+
+include/sync0sync.h:
+
+include/sync0types.h:
+
+include/sync0arr.h:
+
+include/sync0arr.ic:
+
+include/sync0sync.ic:
+
+include/mem0dbg.h:
+
+include/mem0mem.ic:
+
+include/mem0dbg.ic:
+
+include/mem0pool.h:
+
+include/os0file.h:
+
+/usr/include/dirent.h:
+
+/usr/include/x86_64-linux-gnu/bits/dirent.h:
+
+include/mem0pool.ic:
+
+include/row0ext.ic:
+
+include/rem0types.h:
+
+include/btr0types.h:
+
+include/page0types.h:
+
+include/dict0types.h:
+
+include/mtr0types.h:
+
+include/sync0rw.h:
+
+include/sync0rw.ic:
+
+include/btr0cur.h:
+
+include/dict0dict.h:
+
+include/dict0mem.h:
+
+include/data0type.h:
+
+include/data0type.ic:
+
+include/ha_prototypes.h:
+
+include/trx0types.h:
+
+../../include/m_ctype.h:
+
+include/lock0types.h:
+
+include/que0types.h:
+
+include/data0data.h:
+
+include/data0data.ic:
+
+include/ut0rbt.h:
+
+include/hash0hash.h:
+
+include/hash0hash.ic:
+
+include/dict0mem.ic:
+
+include/dict0dict.ic:
+
+include/dict0load.h:
+
+include/dict0load.ic:
+
+include/page0cur.h:
+
+include/buf0types.h:
+
+include/page0page.h:
+
+include/fil0fil.h:
+
+include/buf0buf.h:
+
+include/os0proc.h:
+
+/usr/include/x86_64-linux-gnu/sys/ipc.h:
+
+/usr/include/x86_64-linux-gnu/bits/ipctypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/ipc.h:
+
+/usr/include/x86_64-linux-gnu/sys/shm.h:
+
+/usr/include/x86_64-linux-gnu/bits/shm.h:
+
+include/os0proc.ic:
+
+include/buf0buf.ic:
+
+include/mtr0mtr.h:
+
+include/dyn0dyn.h:
+
+include/dyn0dyn.ic:
+
+include/mtr0mtr.ic:
+
+include/buf0flu.h:
+
+include/buf0flu.ic:
+
+include/buf0lru.h:
+
+include/buf0lru.ic:
+
+include/buf0rea.h:
+
+include/rem0rec.h:
+
+include/rem0rec.ic:
+
+include/fsp0fsp.h:
+
+include/fut0lst.h:
+
+include/fut0lst.ic:
+
+include/fut0fut.h:
+
+include/fut0fut.ic:
+
+include/mtr0log.h:
+
+include/mtr0log.ic:
+
+include/fsp0types.h:
+
+include/trx0sys.h:
+
+include/read0types.h:
+
+include/trx0sys.ic:
+
+include/trx0trx.h:
+
+include/usr0types.h:
+
+include/trx0xa.h:
+
+include/ut0vec.h:
+
+include/ut0vec.ic:
+
+include/trx0trx.ic:
+
+include/srv0srv.h:
+
+include/fsp0fsp.ic:
+
+include/page0page.ic:
+
+include/rem0cmp.h:
+
+include/rem0cmp.ic:
+
+include/page0zip.h:
+
+include/page0zip.ic:
+
+include/page0cur.ic:
+
+include/ha0ha.h:
+
+include/ha0ha.ic:
+
+include/btr0cur.ic:
+
+include/btr0btr.h:
+
+include/btr0btr.ic:

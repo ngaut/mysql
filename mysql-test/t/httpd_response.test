@@ -1,0 +1,17 @@
+# Test the ip port and the unix socket or the httpd server:
+#  check the main page for master and slave
+#  check the /var
+#  check the /var?var=
+#  check the /health
+
+--source include/master-slave.inc
+
+echo Test the ip port;
+let $target= 0.0.0.0:$MASTER_HTTPD_PORT;
+source include/httpd_response.inc;
+
+echo Test the unix socket;
+let $target= $MASTER_HTTPD_SOCKET;
+source include/httpd_response.inc;
+
+--source include/rpl_end.inc
